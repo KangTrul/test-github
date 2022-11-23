@@ -14,4 +14,6 @@ void showResult(int (*fptr)(int, int), int a, int b)
 
 int main()
 {
+    int a = 5;
+    std::cout << a << std::endl;
 }
