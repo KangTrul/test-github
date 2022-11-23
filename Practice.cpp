@@ -14,7 +14,4 @@ void showResult(int (*fptr)(int, int), int a, int b)
 
 int main()
 {
-    funcPointer = sum;
-    showResult(funcPointer, 12, 51);
-    return 0;
 }
